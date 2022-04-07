@@ -1,0 +1,155 @@
+header{
+    background-color: #FDB813;
+    margin: 0;
+}
+
+#nav-bar{
+    align-items: center;
+    height: 60px;
+}
+
+.navBar{
+    padding-top: 10px;
+}
+
+
+
+
+#header-img{
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 60px;
+}
+
+
+body{
+    margin: 0;
+    background: #006994;
+}
+
+
+#About{
+    padding-top: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    line-height: 45px;
+  
+}
+
+.about-Photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.aboutPar{
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  
+}
+
+
+#Education{
+    padding-top: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    text-align: left;
+    line-height: 45px;
+}
+
+.education-Photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Products-Pricing{
+    padding-top: 65px;
+    padding-right: 10px;
+    padding-bottom: 60PX;
+    padding-left: 10px;
+    margin: 0;
+    text-align: center;
+    line-height: 35px;
+}
+
+.products-Pricing{
+    display:flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.iframe-container{
+    text-align: center;
+    padding: 30px;
+}
+
+
+@media screen and (max-width: 375px) {
+   body{
+       align-items: center;
+
+}
+}
+@media screen and (max-width: 576px) {
+
+    #header-img{
+     display: none;
+    }
+    .navBar{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .companyHeader{
+        text-align: center;
+    }
+   #About{
+        text-align: left;
+   }
+}
+
+@media screen and (max-width: 992px) {
+   #About{
+       text-align: center;
+   }
+
+   #Education{
+       text-align: center;
+   }
+
+}
+
+
+
+.scubaVideo{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.jumboBg{
+
+    background-color: #C2B280;
+    padding-top: 60px;
+}
+
+.cardBtn{
+    text-align: end;
+
+
+}
+.productCards{
+       padding-bottom:25px;
+   
+       
+}
